@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: violet;
+    color: rgb(191, 0, 255);
     text-align: center;
 }
