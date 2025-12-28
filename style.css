@@ -53,13 +53,14 @@ h1 {
   font-family: var(--cursive-font);
   color: rgb(224, 102, 255);
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: -.8rem;
 }
 
 .sub-h {
   font-size: .85rem;
   color: #fff;
+  font-weight: 400;
 }
 
 #video {
