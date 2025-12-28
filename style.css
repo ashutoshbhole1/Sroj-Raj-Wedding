@@ -21,7 +21,8 @@ body {
   background: radial-gradient(
   circle at top,
   #47136f 0%,
-  #17082d 40%,
+  #130514 40%,
+  #350345 80%,
   #0a0414 100%
 );
 
@@ -53,6 +54,8 @@ h1 {
 #video{
     border-radius: .5rem;
     height: 30rem;
+    border: 2px solid #6e00a1b7;
+    box-shadow: 10px 10px 60px #540b7bb0;
 }
 
 
@@ -66,6 +69,7 @@ h1 {
 }
 .futuristic-btn {
   position: relative;
+  min-width: max-content;
   padding: 14px 34px;
   font-size: 16px;
   font-weight: 600;
