@@ -76,7 +76,10 @@ h1 {
   flex-direction: column;
   margin-top: 2rem;
 }
-
+.box button a{
+  text-decoration: none;
+  color: inherit;
+}
 .futuristic-btn {
   position: relative;
   min-width: max-content;
