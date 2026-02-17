@@ -3,37 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wedding Invitation for Saroj Bhole & Rajesh Ladhe">
+    <meta name="theme-color" content="#4e0072">
+    
+    <title>Saroj & Rajesh | Wedding Invitation</title>
+    
     <link rel="shortcut icon" href="Src/ganesh ji icon.jpeg" type="image/x-icon">
-    <!-- font -->
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
-    <!-- font end -->
-    <script src="script.js"></script>
-    <title>Saroj Bhole & Rajesh Ladhe Wedding Invitation | Location of Venue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main animated-bg">
-        <img class="ganesh-ji" src="Src/ganesh ji.png" alt="">
+    <div class="background-overlay"></div>
+    
+    <main class="main-container">
+        <header class="header" data-aos="fade-down" data-aos-duration="1500">
+            <img class="ganesh-ji" src="Src/ganesh ji.png" alt="Lord Ganesha">
+        </header>
 
-        <h1>Two hearts, one promise. <br>
-            <sapn class="sub-h"> We warmly invite you to join us as we begin our forever together.</sapn>
-        </h1>
+        <section class="invitation-text" data-aos="fade-up" data-aos-duration="1500">
+            <h1>Two hearts, one promise.</h1>
+            <p class="sub-h">We warmly invite you to join us on our special day.</p>
+            <div class="couple-names">
+                <span class="name">Saroj Bhole</span>
+                <span class="amp">&</span>
+                <span class="name">Rajesh Ladhe</span>
+            </div>
+        </section>
 
-        <video id="video" src="https://ik.imagekit.io/kanhaashutech/Saroj%20Raj%20new%20wedding%20video.mp4?updatedAt=1768559744111"
-            controls autoplay ></video>
+        <section class="video-container" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
+            <div class="video-wrapper">
+                <video id="video" src="https://ik.imagekit.io/kanhaashutech/Saroj%20Raj%20new%20wedding%20video.mp4?updatedAt=1768559744111" 
+                    controls playsinline poster="Src/ganesh ji.png"></video>
+            </div>
+        </section>
 
+        <section class="actions" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+            <a href="https://maps.app.goo.gl/XSS9zoSTn7ify5947" class="futuristic-btn" target="_blank">
+                <i class="fas fa-map-marker-alt"></i> View Venue Location
+            </a>
+            
+            <div class="contact-buttons">
+                <a href="tel:+918120847364" class="futuristic-btn secondary">
+                    <i class="fas fa-phone-alt"></i> Minakshi Bhole
+                </a>
+                <a href="tel:+919303580738" class="futuristic-btn secondary">
+                    <i class="fas fa-phone-alt"></i> Ashutosh Bhole
+                </a>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <p>With Love & Blessings</p>
+        </footer>
+    </main>
 
-        <div class="box">
-            <button class="futuristic-btn"><a href="https://maps.app.goo.gl/XSS9zoSTn7ify5947">📍 Direction on Map / Location</a></button>
-            <button class="futuristic-btn"><a href="tel:+918120847364">🤗 Call Minakshi Bhole </a></button>
-            <button class="futuristic-btn"><a href="tel:+919303580738">⚡ Call Ashutosh Bhole </a></button>
-
-        </div>
-    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
